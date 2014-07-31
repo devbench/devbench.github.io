@@ -1,6 +1,7 @@
 ---
 title: DevBench - Freelance Web Developers in Kent
 assets: ./assets/
+class: index
 ---
 
 # About us
