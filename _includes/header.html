@@ -1,0 +1,16 @@
+<header>
+  <div class="container">
+    <a class="navbar-toggle">
+      <i class="fa fa-bars"></i> <span class="hide">Menu</span>
+    </a>
+    <a href="/" class="brand"><span>DevBench <i class="fa fa-terminal"></i></span></a>
+    <nav role="navigation">
+      <ul>
+        <li {{#if _index}}class="active"{{/if}}><a href="/"><i class="fa fa-home"></i> Home</a></li>
+        <li {{#if _team}}class="active"{{/if}}><a href="/team"><i class="fa fa-beer"></i> The Team</a></li>
+        <li {{#if _blog}}class="active"{{/if}}><a href="/blog"><i class="fa fa-book"></i> Blog</a></li>
+        <li {{#if _contact}}class="active"{{/if}}><a href="/contact"><i class="fa fa-envelope"></i> Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+name: YEA BOI!
+description: Boom Ting!
+author: Devbench
+author_email: admin@devben.ch
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
