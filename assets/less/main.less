@@ -1,12 +1,13 @@
-@import "variables.less";
-@import "helpers.less";
-@import "font-awesome/font-awesome.less";
-@import "buttons.less";
-@import "form.less";
-@import "mixins.less";
-@import "responsive-utilities.less";
-@import "grid.less";
-@import "avatar.less";
+@import "variables";
+@import "helpers";
+@import "font-awesome/font-awesome";
+@import "buttons";
+@import "form";
+@import "mixins";
+@import "responsive-utilities";
+@import "grid";
+@import "avatar";
+@import "syntax";
 @media (max-width: @screen-xs-max) {
   @import "slider.less";
 }
@@ -283,4 +284,31 @@ footer {
   }
 }
 
+.highlight {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.blog-posts {
+  padding-bottom: 40px;
+  position: relative;
+  h3 {
+    font-size: 2em;
+    a {
+      color: @body-text;
+      text-decoration: none;
+      &:hover {
+        color: @brand-primary;
+      }
+    }
+  }
+  .summary {
+    padding-left: 30px;
+    border-left: 2px solid #AAA;
+    .avatar {
+      margin-right: 20px;
+      height: 100%;
+    }
+  }
+}
 

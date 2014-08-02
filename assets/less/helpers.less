@@ -28,17 +28,29 @@
   display: block;
 }
 
-.hide {
-  display: none; 
-}
-
 .inline-block {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+.pull {
+  float: left;
+}
+
+.push {
+  float: right;
+}
+
 /* -- font color --*/
 .muted {
-  color : #ccc;
+  color : #AAA;
 }
 .warning-header {
   color : @warning;
@@ -73,4 +85,11 @@
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%);
+}
+
+/* -- Lists -- */
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
