@@ -3082,7 +3082,7 @@ footer .contact a .fa-envelope-o {
 .highlight {
   padding: 10px 20px;
   border-radius: 5px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .highlight pre {
   font-family: 'Inconsolata', 'monaco', monospace;
