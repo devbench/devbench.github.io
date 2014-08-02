@@ -1,5 +1,6 @@
 ---
 title: DevBench - Contact us
+heading: Get in touch,<br>send us a message.
 assets: ../assets/
 class: contact
 ---

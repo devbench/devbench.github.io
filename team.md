@@ -1,5 +1,6 @@
 ---
 title: DevBench - Meet the team
+heading: Meet the team,<br>a little bit about us.
 assets: ../assets/
 class: team
 ---
