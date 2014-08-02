@@ -9,7 +9,7 @@ weight: 3
 <ul class="list-unstyled blog-posts">
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <div class="summary">
         <img class="avatar small pull inline-block" src="{{ site.url }}{{ post.avatar }}" />
         <p><blockquote>{{ post.excerpt | strip_html }}</blockquote></p>
