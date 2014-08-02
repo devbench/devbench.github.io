@@ -1,7 +1,9 @@
 ---
-title: DevBench - Contact us
+title: Contact us
 heading: Get in touch,<br>send us a message.
+link: Contact us
 class: contact
+weight: 4
 ---
 
 # Contact us

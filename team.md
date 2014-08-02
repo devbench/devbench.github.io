@@ -1,7 +1,9 @@
 ---
-title: DevBench - Meet the team
+title: Meet the team
 heading: Meet the team,<br>a little bit about us.
+link: The team
 class: team
+weight: 2
 ---
 
 <div class="member">

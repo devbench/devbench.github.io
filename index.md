@@ -1,7 +1,9 @@
 ---
-title: DevBench - Freelance Web Developers in Kent
+title: Freelance Web Developers in Kent
 heading: Freelance web developers<br>Kent, UK.
+link: Home
 class: index
+weight: 1
 ---
 
 # About us
