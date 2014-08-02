@@ -4,7 +4,7 @@ author: Devbench
 author_email: admin@devben.ch
 permalink: pretty
 
-exclude: ['node_modules/', '**/*.less']
+exclude: ['node_modules/', '**/*.less', 'assets/javascripts/vendor', 'assets/javascripts/lib']
 
 defaults:
   -
