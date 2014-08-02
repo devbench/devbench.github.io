@@ -1,12 +1,11 @@
 ---
 title: DevBench - Meet the team
 heading: Meet the team,<br>a little bit about us.
-assets: ../assets/
 class: team
 ---
 
 <div class="member">
-  <div class="avatar-container"><img src="{{ page.assets }}/images/jodie-retina.jpg" /></div>
+  <div class="avatar-container"><img src="{{ site.url }}/assets/images/jodie-retina.jpg" /></div>
   <div class="profile">
     <h2>Jodie Doubleday</h2>
     <p class="lead">UX/UI Engineer</p>
@@ -14,7 +13,7 @@ class: team
   </div>
 </div>
 <div class="member">
-  <div class="avatar-container"><img src="{{ page.assets }}/images/jack-retina.jpg" /></div>
+  <div class="avatar-container"><img src="{{ site.url }}/assets/images/jack-retina.jpg" /></div>
   <div class="profile">
     <h2>Jack Crawford</h2>
     <p class="lead">Web Developer</p>
