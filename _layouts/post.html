@@ -8,11 +8,11 @@
     {% include header.html %}
     <div class="content">
       <div class="container">
-        <img class="avatar small" src="{{ site.url }}{{ page.avatar }}" /> <em class="muted">{{ page.author }}, {{ page.date | date: "%-d %B %Y"}}</em>
+        <a href="/team/"><img class="avatar small" src="{{ site.url }}{{ page.avatar }}" /></a> <em class="muted">{{ page.author }}, {{ page.date | date: "%-d %B %Y"}}</em>
         <h1>{{ page.title }}</h1>
         <div class="blog-content">
           {{ content }}
-          <img class="avatar small" src="{{ site.url }}{{ page.avatar }}" /> <em class="muted">{{ page.author }}, {{ page.date | date: "%-d %B %Y"}}</em>
+          <a href="/team/"><img class="avatar small" src="{{ site.url }}{{ page.avatar }}" /></a> <em class="muted">{{ page.author }}, {{ page.date | date: "%-d %B %Y"}}</em>
         </div>
         <div class="comments">
           {% include disqus.html %}

@@ -11,7 +11,7 @@ weight: 3
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <div class="summary">
-        <img class="avatar small pull inline-block" src="{{ site.url }}{{ post.avatar }}" />
+        <a href="/team/"><img class="avatar small pull inline-block" src="{{ site.url }}{{ post.avatar }}" /></a>
         <p><blockquote>{{ post.excerpt | strip_html }}</blockquote></p>
         <em class="muted">By {{ post.author }}, {{ post.date | date: "%-d %B %Y"}}</em>
       </div>
