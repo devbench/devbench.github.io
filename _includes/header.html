@@ -8,7 +8,7 @@
       <ul>
         {% assign links = site.pages | sort: 'weight' %}
         {% for p in links %}
-          <li {% if p.url == page.url %}class="active"{% endif %}><a href="{{ p.url }}">{{ p.link }}</a></li>
+          <li {% if (p.url == page.url) or (p.url == '/blog/' and page.layout == 'post') %}class="active"{% endif %}><a href="{{ p.url }}">{{ p.link }}</a></li>
         {% endfor %}
       </ul>
     </nav>
