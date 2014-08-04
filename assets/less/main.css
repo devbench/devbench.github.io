@@ -2866,57 +2866,6 @@ header .brand i {
     width: 58.33333333%;
   }
 }
-@media (min-width: 768px) {
-  .mega-image .tint .caption-block .caption {
-    right: 41.66666667%;
-  }
-}
-.mega-image .tint .caption-block .avatars {
-  float: left;
-  width: 100%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 2.4em;
-  text-align: right;
-}
-@media (min-width: 768px) {
-  .mega-image .tint .caption-block .avatars {
-    float: left;
-    width: 41.66666667%;
-  }
-}
-@media (min-width: 768px) {
-  .mega-image .tint .caption-block .avatars {
-    left: 58.33333333%;
-  }
-}
-.mega-image .tint .caption-block .avatars div {
-  display: inline;
-}
-.mega-image .tint .caption-block .avatars div a {
-  display: inline-block;
-}
-.mega-image .tint .caption-block .avatars div a img {
-  height: 110px;
-  width: 110px;
-  background-color: #4db8d6;
-  box-shadow: 0 0 0 5px #4db8d6;
-  border-radius: 50%;
-}
-.mega-image .tint .caption-block .avatars div a img:hover {
-  cursor: pointer;
-  -moz-animation: bounce-out 0.4s linear;
-  -webkit-animation: bounce-out 0.4s linear;
-  webkit-animation: bounce-out 0.4s linear;
-}
-.mega-image .tint .caption-block .avatars div a img.small {
-  width: 80px;
-}
-.mega-image .tint .caption-block .avatars div a img.tiny {
-  width: 50px;
-}
 .member {
   float: left;
   width: 100%;
