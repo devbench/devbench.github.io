@@ -3116,6 +3116,9 @@ footer .contact a .fa-envelope-o {
 .blog-content {
   padding-bottom: 20px;
 }
+.blog-content img {
+  max-width: 100%;
+}
 .comments {
   display: block;
   margin-top: 30px;
