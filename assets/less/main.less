@@ -190,12 +190,15 @@ dl {
   justify-content: center;
   font-size: 0.75em;
   border-bottom:dotted 1px @brand-primary;
+  flex-wrap:wrap;
+  padding-bottom:1em;
   dt {
     font-weight:500;
-    margin-left: 1em;
+    flex: 0 1 50%;
   }
   dd {
-    margin:0 1em 0 0.5em;
+    flex: 0 1 50%;
+    margin:0;
   }
 }
 
@@ -312,6 +315,16 @@ a[href*="google"] i {
   .header nav ul {
     justify-content:flex-end;
     font-size:1.2em;
+  }
+  dl {
+    justify-content:center;
+    dt {
+      flex:0 0 auto;
+    }
+    dd {
+      flex:0 0 auto;
+      margin:0 1.5em 0 0.5em
+    }
   }
 }
 
