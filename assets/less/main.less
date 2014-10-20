@@ -225,17 +225,17 @@ dl {
   flex-wrap:wrap;
   align-items: stretch;
   .avatar-container {
-    flex:1 0 140px;
+    flex:1 1 auto;
     text-align:center;
   }
   img {
     width:100px;
     height:100px;
-    margin:0px auto;
+    margin:0px 1em;
   }
 }
 .profile {
-  flex:2 0 380px;
+  flex:2 1 400px;
   h2 {
     margin:0;
     text-align:center;
@@ -307,11 +307,9 @@ a[href*="google"] i {
   color:#dd4b39;
 }
 
-@media (min-width: 559px) {
+@media (min-width: 576px) {
   header {
     text-align:center;
-    .brand, nav {
-    }
   }
   .profile {
     h2 {
