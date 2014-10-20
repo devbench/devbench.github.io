@@ -1,7 +1,7 @@
 ---
 title: What's in a hamburger icon?
 layout: post
-time: 4 minutes
+time: 5 minutes
 author: Jodie Doubleday
 twitter: jodiedoubleday
 category: UX
