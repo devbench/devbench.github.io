@@ -15,7 +15,6 @@ module.exports = (grunt) ->
         tasks: ['less']
       js:
         files: '**/*.js'
-        tasks: ['uglify']
     exec:
       build:
         cmd: 'jekyll build'
@@ -27,5 +26,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-exec'
 
-  grunt.registerTask 'default', ['less', 'uglify', 'exec:build']
+  grunt.registerTask 'default', ['less', 'exec:build']
   grunt.registerTask 'serve', ['exec:serve']
