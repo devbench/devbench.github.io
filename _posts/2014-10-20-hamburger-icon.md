@@ -45,7 +45,7 @@ Despite the Ill mannered choice of words, he might have been on to something. Ha
 
 It would strike me as a very strange thing to do, It is after all a website, and I could maybe see that changing the icon to a more android-like 3 dot button might be beneficial, but 2-lines doesn't seem Android like at all. Are apple purposely trying to create a different user experience for Android customers?
 
-When conducting my own research, it seems the 'panini' icon is present for bpth Android and Apple users, so this is a red herring.
+When conducting my own research, it seems the 'panini' icon is present for both Android and Apple users, so this is a red herring.
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/jodiedoubleday">@jodiedoubleday</a> <a href="https://twitter.com/lukew">@lukew</a> maybe to reinforce new ipad is thinner?</p>&mdash; Sergi Meseguer (@zigotica) <a href="https://twitter.com/zigotica/status/523578907669573634">October 18, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
