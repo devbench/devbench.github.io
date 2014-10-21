@@ -41,9 +41,9 @@ My responses included..
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/jodiedoubleday">@jodiedoubleday</a> this is an adaptation for android. Apple are too cool to show all the stripes to fucking android fans <a href="http://t.co/bO3kU5LSqL">pic.twitter.com/bO3kU5LSqL</a></p>&mdash; Валера Попов (@valerypopoff) <a href="https://twitter.com/valerypopoff/status/523489124968562689">October 18, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-Despite the Ill mannered choice of words, he might have been on to something. Have Apple changed their menu button for JUST Android users?
+Despite the ill mannered choice of words, he might have been on to something. Have Apple changed their menu button for JUST Android users?
 
-It would strike me as a very strange thing to do, It is after all a website, and I could maybe see that changing the icon to a more android-like 3 dot button might be beneficial, but 2-lines doesn't seem Android like at all. Are apple purposely trying to create a different user experience for Android customers?
+It would strike me as a very strange thing to do on a website. It might make sense to use the Android 3-dot-icon, but two lines is an odd choice.
 
 When conducting my own research, it seems the 'panini' icon is present for both Android and Apple users, so this is a red herring.
 
