@@ -29,6 +29,14 @@ blockquote {
 iframe {
   margin: 0px auto !important;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+.header nav {
+  font-family: 'Bitter', serif;
+}
 /* -- Header -- */
 .header {
   text-align: center;
@@ -105,7 +113,7 @@ iframe {
   font-size: 3em;
   line-height: 1.2em;
   color: #fff;
-  text-shadow: 2px 2px #23809a;
+  text-shadow: 0px 1px 1px #23809a;
 }
 .jumbotron h1 small {
   display: block;
