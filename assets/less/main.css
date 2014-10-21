@@ -157,6 +157,13 @@ h5,
 }
 .blog-content img {
   width: 100%;
+  display: block;
+}
+.blog-content img.small-img {
+  min-width: 200px;
+  width: 500px;
+  max-width: 99%;
+  margin: 0px auto;
 }
 .blog-content blockquote {
   padding: 1em;

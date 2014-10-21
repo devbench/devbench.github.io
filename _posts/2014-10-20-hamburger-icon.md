@@ -45,6 +45,7 @@ Despite the Ill mannered choice of words, he might have been on to something. Ha
 
 It would strike me as a very strange thing to do, It is after all a website, and I could maybe see that changing the icon to a more android-like 3 dot button might be beneficial, but 2-lines doesn't seem Android like at all. Are apple purposely trying to create a different user experience for Android customers?
 
+When conducting my own research, it seems the 'panini' icon is present for bpth Android and Apple users, so this is a red herring.
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/jodiedoubleday">@jodiedoubleday</a> <a href="https://twitter.com/lukew">@lukew</a> maybe to reinforce new ipad is thinner?</p>&mdash; Sergi Meseguer (@zigotica) <a href="https://twitter.com/zigotica/status/523578907669573634">October 18, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -52,6 +53,11 @@ This a beautiful thought and would be a very geeky joke by Apple, using a menu i
 
 Apple aren't short sighted, they have made their money through beautiful designs of hardware and software alike and they know their audience well. Most visitors to the Apple site on launch of a new product will be tech savvy users who will generally understand where a menu is on a website, and what kind of symbols to look out for.
 But it still strikes me as an odd thing to do, get something that is crticised and make it even more ambiguous than before.
+
+My own opinion is that Apple made the icon just to create a small but neat animation. When you click on the 'Panini' the two lines twist together and turn into a cross, alllowing the user to quickly close the menu they have just opened. A simple but quite beautiful effect shown below.
+
+<img class="small-img" src="{{ site.url }}/assets/images/blog/panini.gif" alt="Apple Panini UI" />
+
 
 ##What Icon to use - The difinitive guide##
 
