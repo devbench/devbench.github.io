@@ -14,7 +14,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  line-height: 1.6em;
+  line-height: 1.61803399em;
   font-size: 1.2em;
 }
 p {
@@ -36,6 +36,7 @@ h4,
 h5,
 .header nav {
   font-family: 'Bitter', serif;
+  line-height: 1.61803399em;
 }
 /* -- Header -- */
 .header {

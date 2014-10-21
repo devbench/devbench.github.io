@@ -1,5 +1,6 @@
 /* -- Brand Variables -- */
-@brand-primary  : #4db8d6;
+@brand-primary : #4db8d6;
+@golden-ratio : 1.61803398875em;
 
 
 /* -- HTML Elemnets -- */
@@ -19,7 +20,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  line-height:1.6em;
+  line-height: @golden-ratio;
   font-size:1.2em;
 }
 
@@ -41,6 +42,7 @@ iframe {
 
 h1, h2, h3, h4, h5, .header nav {
   font-family: 'Bitter', serif;
+  line-height: @golden-ratio;
 }
 
 /* -- Header -- */
@@ -120,7 +122,7 @@ h1, h2, h3, h4, h5, .header nav {
   padding: 1em 0.5em;
   h1 {
     text-align:center;
-    font-size:2.8em;
+    font-size:3em;
     line-height:1.2em;
     color:#fff;
     text-shadow: 0px 1px 1px darken(@brand-primary, 20%);
