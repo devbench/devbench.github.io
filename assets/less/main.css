@@ -14,7 +14,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  line-height: 1.6em;
+  line-height: 1.61803399em;
   font-size: 1.2em;
 }
 p {
@@ -36,6 +36,7 @@ h4,
 h5,
 .header nav {
   font-family: 'Bitter', serif;
+  line-height: 1.61803399em;
 }
 /* -- Header -- */
 .header {
@@ -66,7 +67,7 @@ h5,
   flex: 1 0 auto;
 }
 .header nav ul {
-  margin: 0.5em;
+  margin: 0.5em 0;
   padding: 0;
   display: flex;
   flex: 1 1 auto;
@@ -75,7 +76,7 @@ h5,
   justify-content: space-around;
 }
 .header nav ul li a {
-  padding: 0.5em;
+  padding: 0.25em;
   text-decoration: none;
   color: inherit;
   font-weight: 500;
@@ -106,7 +107,7 @@ h5,
 /* -- Standard Elements -- */
 .jumbotron {
   background: #4db8d6;
-  padding: 2em 1em;
+  padding: 1em 0.5em;
 }
 .jumbotron h1 {
   text-align: center;
@@ -117,7 +118,7 @@ h5,
 }
 .jumbotron h1 small {
   display: block;
-  font-size: 0.60em;
+  font-size: 0.50em;
 }
 .content {
   max-width: 40em;
@@ -156,6 +157,13 @@ h5,
 }
 .blog-content img {
   width: 100%;
+  display: block;
+}
+.blog-content img.small-img {
+  min-width: 200px;
+  width: 500px;
+  max-width: 99%;
+  margin: 0px auto;
 }
 .blog-content blockquote {
   padding: 1em;
@@ -299,6 +307,9 @@ a[href*="google"] i {
   .header nav ul {
     justify-content: flex-end;
     font-size: 1.2em;
+  }
+  .header nav ul li a {
+    padding: 0.5em;
   }
   dl {
     justify-content: center;

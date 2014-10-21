@@ -1,5 +1,6 @@
 /* -- Brand Variables -- */
-@brand-primary  : #4db8d6;
+@brand-primary : #4db8d6;
+@golden-ratio : 1.61803398875em;
 
 
 /* -- HTML Elemnets -- */
@@ -19,7 +20,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  line-height:1.6em;
+  line-height: @golden-ratio;
   font-size:1.2em;
 }
 
@@ -41,6 +42,7 @@ iframe {
 
 h1, h2, h3, h4, h5, .header nav {
   font-family: 'Bitter', serif;
+  line-height: @golden-ratio;
 }
 
 /* -- Header -- */
@@ -70,7 +72,7 @@ h1, h2, h3, h4, h5, .header nav {
     margin: 0px auto;
     flex:1 0 auto;
     ul {
-      margin:0.5em;
+      margin:0.5em 0;
       padding: 0;
       display: flex;
       flex:1 1 auto;
@@ -79,7 +81,7 @@ h1, h2, h3, h4, h5, .header nav {
       justify-content: space-around;
       li {
         a {
-          padding: 0.5em;
+          padding: 0.25em;
           text-decoration:none;
           color: inherit;
           font-weight: 500;
@@ -117,7 +119,7 @@ h1, h2, h3, h4, h5, .header nav {
 
 .jumbotron {
   background:@brand-primary;
-  padding: 2em 1em;
+  padding: 1em 0.5em;
   h1 {
     text-align:center;
     font-size:3em;
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5, .header nav {
     text-shadow: 0px 1px 1px darken(@brand-primary, 20%);
     small {
       display:block;
-      font-size:0.60em;
+      font-size:0.50em;
     }
   }
 }
@@ -170,6 +172,13 @@ h1, h2, h3, h4, h5, .header nav {
   padding-bottom:2em;
   img {
     width:100%;
+    display:block;
+    &.small-img {
+      min-width: 200px;
+      width: 500px;
+      max-width: 99%;
+      margin:0px auto;
+    }
   }
   blockquote {
     padding: 1em;
@@ -326,6 +335,9 @@ a[href*="google"] i {
   .header nav ul {
     justify-content:flex-end;
     font-size:1.2em;
+    li a {
+      padding:0.5em;
+    }
   }
   dl {
     justify-content:center;
