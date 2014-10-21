@@ -64,5 +64,5 @@ My own opinion is that Apple made the icon just to create a small but neat anima
 The key thing to note with famous A/B tests on menu icons, is that these tests were specific to their users and we shouldn't assume that what works for one website works for another.
 When talking to UXUI Engineers most use the hamburger icon on their own projects because "it's standard now" or "Facebook trained a billion people on how to use it", so an icon that works on a Facebook mobile app will work on your website? Think again!
 
-If you have an opinion on 'The Hamburger', 'The Panini', Androids 3-dot menu or just the word 'Menu', then test all options thoroughly on YOUR OWN website with YOUR OWN users. You never know what the results might be, you might even be a little angered by them, but it's **what your users want**.
+If you have an opinion on 'The Hamburger', 'The Panini', Androids 3-dot-icon or just the word 'Menu', then test all options thoroughly on YOUR OWN website with YOUR OWN users. You never know what the results might be, you might even be a little angered by them, but it's **what your users want**.
 
