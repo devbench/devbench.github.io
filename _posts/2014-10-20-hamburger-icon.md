@@ -18,10 +18,10 @@ So the icon has pedigree, it's been used for years without complaint, without hu
 
 There has been a few tests on whether users understand the icons meaning and whether using the word "menu" would be better, with very mixed results.
 
-[James Foster](http://exisweb.net/menu-eats-hamburger) famously did an in depth A/B test on the icons against the word 'Menu' on the website Caffeine Informer and came out with a clear conclusion...
+[James Foster - Hamburger vs Menu: The Final AB Test](http://exisweb.net/menu-eats-hamburger) reported about an in-depth A/B test on the icons against the word 'Menu' on the website Caffeine Informer and came out with a clear conclusion...
 <blockquote>"The MENU button was clicked by 20% more unique visitors than the HAMBURGER button."</blockquote>
 
-BUT before the the sounds of cheers from the UXUI community finishing ringing in my ears, we have another study by Booking.com - Would you like fries with that? http://blog.booking.com/hamburger-menu.html
+BUT before the the sounds of cheers from the UXUI community finishing ringing in my ears, we have another study by [Booking.com - Would you like fries with that?](http://blog.booking.com/hamburger-menu.html)
 which concludes...
 <blockquote>"In our experiment, changing the icon to the word "menu" had no significant impact on the behavior of our users. With our very large user base, we are able to state with a very high confidence that, specifically for Booking.com users, the hamburger icon performs just as well as the more descriptive version."</blockquote>
 Note: I'm ignoring the fact Booking.com slightly changed the design of their button as well as the wording/icon
@@ -59,7 +59,7 @@ My own opinion is that Apple made the icon just to create a small but neat anima
 <img class="small-img" src="{{ site.url }}/assets/images/blog/panini.gif" alt="Apple Panini UI" />
 
 
-##What Icon to use - The difinitive guide##
+##What Icon to use - The definitive guide##
 
 The key thing to note with famous A/B tests on menu icons, is that these tests were specific to their users and we shouldn't assume that what works for one website works for another.
 When talking to UXUI Engineers most use the hamburger icon on their own projects because "it's standard now" or "Facebook trained a billion people on how to use it", so an icon that works on a Facebook mobile app will work on your website? Think again!
