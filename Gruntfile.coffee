@@ -2,19 +2,19 @@ module.exports = (grunt) ->
 
   grunt.initConfig
     less:
-      development:
+      all:
         options:
           paths: ['assets/less']
         files: 'assets/less/main.css': 'assets/less/main.less'
     uglify:
-      development:
-        files: 'assets/javascripts/default.js': 'assets/javascripts/**/*.js'
+      all:
+        files: 'assets/javascripts/default.js': ['assets/javascripts/vendor/**/*.js', 'assets/javascripts/lib/**/*.js']
     watch:
       less:
-        files: '**/*.less'
+        files: 'assets/less/**/*.less'
         tasks: ['less']
       js:
-        files: '**/*.js'
+        files: 'assets/javascripts/**/*.js'
     exec:
       build:
         cmd: 'jekyll build'
