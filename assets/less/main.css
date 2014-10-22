@@ -11,10 +11,19 @@ html {
   min-height: 100%;
 }
 body {
+  color: #000;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 1.61803399em;
+  font-size: 1.2em;
 }
 p {
   word-wrap: break-word;
+}
+a {
+  color: #4db8d6;
 }
 blockquote {
   margin: 0.5em 0;
@@ -42,25 +51,43 @@ h5,
   flex-wrap: wrap;
 }
 .header .brand {
+  color: #000;
+  display: inline-block;
   font-family: 'Port Lligat Slab', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
   flex: 0 1 270px;
+  margin: 0px auto;
 }
 .header .brand i {
   color: #4db8d6;
 }
 .header nav {
+  margin: 0px auto;
   flex: 1 0 auto;
 }
 .header nav ul {
+  margin: 0.5em 0;
+  padding: 0;
   display: flex;
   flex: 1 1 auto;
+  list-style: none;
+  text-align: center;
   justify-content: space-around;
 }
 .header nav ul li a {
+  padding: 0.25em;
+  text-decoration: none;
   color: inherit;
   font-weight: 500;
+  white-space: nowrap;
 }
 .header nav ul li a:hover {
+  border-bottom: dotted 2px #4db8d6;
+}
+.header nav ul li.active a {
   border-bottom: dotted 2px #4db8d6;
 }
 /* -- Footer -- */
@@ -80,8 +107,25 @@ h5,
   text-decoration: none;
 }
 /* -- Standard Elements -- */
+.jumbotron {
+  background: #4db8d6;
+  padding: 1em 0.5em;
+}
 .jumbotron h1 {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #fff;
   text-shadow: 0px 1px 1px #23809a;
+}
+.jumbotron h1 small {
+  display: block;
+  font-size: 0.50em;
+}
+.content {
+  max-width: 40em;
+  padding: 1em;
+  margin: 0 auto;
 }
 /* -- Blog --*/
 .blog-posts {
@@ -244,6 +288,9 @@ button,
   text-decoration: none;
 }
 /* -- Social Media -- */
+.footer a span {
+  display: none;
+}
 a[href*="twitter"] i {
   color: #00aced;
 }
