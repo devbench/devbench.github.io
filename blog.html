@@ -1,20 +1,26 @@
 ---
 title: Meet the team
-heading: Blog,<br>All the things we know
 link: Blog
 class: blog
 weight: 3
 ---
 
-<ul class="list-unstyled blog-posts">
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="summary">
-        <a href="/team/"><img class="avatar small pull inline-block" src="{{ site.url }}{{ post.avatar }}" /></a>
-        <p><blockquote>{{ post.excerpt | strip_html }}</blockquote></p>
-        <em class="muted">By {{ post.author }}, {{ post.date | date: "%-d %B %Y"}}</em>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+<div class="jumbotron">
+  <h1>Blog <small>- the things we know -</small></h1>
+</div>
+<div class="content">
+  <ul class="list-unstyled blog-posts">
+    {% for post in site.posts %}
+      <li class="post">
+        <a href="{{ post.url }}">
+          <h2>&#9998; {{ post.title }}</h2>
+          <div class="summary">
+            <!-- <a href="/team/"><img class="avatar small pull inline-block" src="{{ site.url }}{{ post.avatar }}" /></a> -->
+            <blockquote>{{ post.excerpt | strip_html }}</blockquote>
+            <i>By {{ post.author }}, {{ post.date | date: "%-d %B %Y"}}</i>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

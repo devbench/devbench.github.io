@@ -1,16 +1,11 @@
-<header>
-  <div class="container">
-    <a class="navbar-toggle">
-      <i class="fa fa-bars"></i> <span class="hide">Menu</span>
-    </a>
-    <a href="/" class="brand"><span>DevBench <i class="fa fa-terminal"></i></span></a>
-    <nav role="navigation">
-      <ul>
-        {% assign links = site.pages | sort: 'weight' %}
-        {% for p in links %}
-          <li {% if (p.url == page.url) or (p.url == '/blog/' and page.layout == 'post') %}class="active"{% endif %}><a href="{{ p.url }}">{{ p.link }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
+<header class="header">
+  <a href="/" class="brand">DevBench <i class="fa fa-terminal"></i></a>
+  <nav role="navigation">
+    <ul>
+      {% assign links = site.pages | sort: 'weight' %}
+      {% for p in links %}
+        <li {% if (p.url == page.url) or (p.url == '/blog/' and page.layout == 'post') %}class="active"{% endif %}><a href="{{ p.url }}">{{ p.link }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
