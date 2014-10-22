@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Port+Lligat+Slab|Inconsolata|Roboto:500,100,300,700,400);
+/* -- Import Fonts -- */
 /* -- Brand Variables -- */
 /* -- HTML Elemnets -- */
 * {
@@ -285,7 +287,39 @@ button,
   border-radius: 0.25em;
   text-decoration: none;
 }
+/* -- Contact -- */
+ul.contact {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 2em 0;
+  padding: 0;
+}
+ul.contact li a {
+  font-size: 5em;
+  background-color: #4db8d6;
+  box-shadow: 0 0 0 5px #4db8d6;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 1.61803399em;
+  height: 1.61803399em;
+  width: 1.61803399em;
+  display: block;
+  text-align: center;
+}
+ul.contact li a:hover {
+  cursor: pointer;
+  -moz-animation: bounce-out 0.4s linear;
+  -webkit-animation: bounce-out 0.4s linear;
+  webkit-animation: bounce-out 0.4s linear;
+}
+ul.contact li a span {
+  display: none;
+}
 /* -- Social Media -- */
+.footer a span {
+  display: none;
+}
 a[href*="twitter"] i {
   color: #00aced;
 }
