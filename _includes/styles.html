@@ -1,159 +1,127 @@
-<style>
+<!---  Created By Critical
+    -  https://github.com/addyosmani/critical
+    ------------------------------------------
+    -  Needs Automating
+    -  Manually replaced imported styles with web standard 'Helvetica'
+    -  See 'assets/less/critical.css'
+-->
 
-* {
-  box-sizing: border-box;
-}
-html {
-  height: 100%;
-  min-height: 100%;
-}  
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
-  color: #000;
-  font-weight: 300;
-  font-size:1.2em;
-  line-height:1.6em;
-  margin: 0;
-  padding: 0;
-}
-h1,h2,h3,h4,h5,h6 {
-  line-height:1.6em;
-}
-a {
-  color: rgba(77, 184, 214, 1);
-}
-ul {
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-blockquote {
-  margin:0.5em 0;
-}
-.header {
-  text-align:center;
-  padding:1em;
-  background: #FFF;
-  border-bottom: 1px solid #AAA;
-  overflow:hidden;
-}
-.brand {
-  color: #000;
-  display: inline-block;
-  font-size: 2.5em;
-  font-weight: 700;
-  text-decoration:none;
-  white-space:nowrap;
-  margin: 0px auto;
-  line-height: 1em;
-}
-nav {
-  margin: 0px auto;
-}
-nav ul {
-  margin:0.5em 0;
-  padding: 0;
-  text-align: center;
-}
-nav ul li {
-  display:inline-block;
-}
-nav ul li a {
-  padding: 0.25em;
-  text-decoration:none;
-  color: inherit;
-  font-weight: 500;
-  white-space:nowrap; 
-}
-nav ul li.active a {
-  border-bottom:dotted 2px rgba(77, 184, 214, 1);
-}
-.jumbotron {
-  background:rgba(77, 184, 214, 1);
-  padding: 1em 0.5em;
-}
-.jumbotron h1 {
-  text-align:center;
-  font-size:3em;
-  line-height:1.2em;
-  color:#fff;
-}
-.jumbotron h1 small {
-  display:block;
-  font-size:0.50em;
-}
-.content {
-  max-width:40em;
-  padding: 1em;
-  margin:0 auto;
-}
-.footer ul {
-  float:right;
-  margin-right:1em;
-}
-.footer ul li {
-  display:inline-block;
-}
-.avatar-container {
-  text-align:center;
-}
-.avatar-container img {
-  border-radius: 50%;
-  border: solid 5px rgba(77, 184, 214, 1);
-  width:30%;
-  height:30%;
-}
-.member {
-  border-bottom:dotted 1px rgba(77, 184, 214, 1);
-  padding:2em 0;
-}
-.profile h2 small {
-   color: rgba(77, 184, 214, 1);
-   display:block;
-}
-.post {
-  border-bottom:dotted 1px rgba(77, 184, 214, 1);
-  padding:1em 0;
-}
-.post i {
-  float:right;
-  font-size:0.85em;
-}
-.post a {
-  color:inherit;
-  text-decoration:none;
-  overflow:hidden;
-  display:block;
-}
-.post a h2 {
-  color:rgba(77, 184, 214, 1);
-}
-.post a h2:hover {
-  text-decoration:underline;
-}
-ul.contact {
-  text-align: center;
-  margin-top: 1em;
-}
-ul.contact li {
-  margin:1em;
-}
-ul.contact li a {
-  font-size: 2em;
-}
-dl {
-  border-bottom:dotted 1px rgba(77, 184, 214, 1);
-  font-size: 0.75em;
-  overflow:hidden;
-  padding-bottom:1em;
-  margin-bottom:1em;
-}
-dl dt {
-  font-weight:700;
-}
-.blog-content {
-  border-bottom:dotted 1px rgba(77, 184, 214, 1);
-  padding-bottom:2em;
-}
+<style>
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    height: 100%;
+    min-height: 100%;
+  }
+  body {
+    color: #000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 1.61803399em;
+    font-size: 1.2em;
+  }
+  p {
+    word-wrap: break-word;
+  }
+  a {
+    color: #4db8d6;
+  }
+  ul {
+    list-style:none;
+  }
+  blockquote {
+    margin:0;
+    padding:0;
+  }
+  h1,
+  .header nav {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 1.61803399em;
+  }
+
+  .header {
+    text-align: center;
+    padding: 1em;
+    background: #FFF;
+    border-bottom: 1px solid #AAA;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .header .brand {
+    color: #000;
+    display: inline-block;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 2.5em;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    flex: 0 1 270px;
+    margin: 0px auto;
+  }
+  .header .brand i {
+    color: #4db8d6;
+  }
+  .header nav {
+    margin: 0px auto;
+    flex: 1 0 auto;
+  }
+  .header nav ul {
+    margin: 0.5em 0;
+    padding: 0;
+    display: flex;
+    flex: 1 1 auto;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .header nav ul li a {
+    padding: 0.25em;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .header nav ul li.active a {
+    border-bottom: dotted 2px #4db8d6;
+  }
+
+  .jumbotron {
+    background: #4db8d6;
+    padding: 1em 0.5em;
+  }
+  .jumbotron h1 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.2em;
+    color: #fff;
+    text-shadow: 0px 1px 1px #23809a;
+  }
+  .jumbotron h1 small {
+    display: block;
+    font-size: 0.50em;
+  }
+  .content {
+    max-width: 40em;
+    padding: 1em;
+    margin: 0 auto;
+  }
+  @media (min-width: 576px) {
+    header {
+      text-align: center;
+    }
+  }
+  @media (min-width: 800px) {
+    .header nav ul {
+      justify-content: flex-end;
+      font-size: 1.2em;
+    }
+    .header nav ul li a {
+      padding: 0.5em;
+    }
+  }
 </style>
