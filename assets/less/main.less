@@ -49,59 +49,58 @@ h1, h2, h3, h4, h5, .header nav {
 }
 
 /* -- Header -- */
-.body {
-  .header {
-    text-align:center;
-    padding:1em;
-    background: #FFF;
-    border-bottom: 1px solid #AAA;
-    display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    .brand {
-      color: #000;
-      display: inline-block;
-      font-family: 'Port Lligat Slab', serif;
-      font-size: 2.5em;
-      font-weight: 700;
-      text-decoration:none;
-      white-space:nowrap;
-      flex:0 1 270px;
-      margin: 0px auto;
-      i {
-        color: @brand-primary;
-      }
+.header {
+  text-align:center;
+  padding:1em;
+  background: #FFF;
+  border-bottom: 1px solid #AAA;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  .brand {
+    color: #000;
+    display: inline-block;
+    font-family: 'Port Lligat Slab', serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-decoration:none;
+    white-space:nowrap;
+    flex:0 1 270px;
+    margin: 0px auto;
+    i {
+      color: @brand-primary;
     }
-    nav {
-      margin: 0px auto;
-      flex:1 0 auto;
-      ul {
-        margin:0.5em 0;
-        padding: 0;
-        display: flex;
-        flex:1 1 auto;
-        list-style: none;
-        text-align: center;
-        justify-content: space-around;
-        li {
-          a {
-            padding: 0.25em;
-            text-decoration:none;
-            color: inherit;
-            font-weight: 500;
-            white-space:nowrap;
-            &:hover {
-              border-bottom:dotted 2px @brand-primary;
-            }
-          }
-          &.active a {
+  }
+  nav {
+    margin: 0px auto;
+    flex:1 0 auto;
+    ul {
+      margin:0.5em 0;
+      padding: 0;
+      display: flex;
+      flex:1 1 auto;
+      list-style: none;
+      text-align: center;
+      justify-content: space-around;
+      li {
+        a {
+          padding: 0.25em;
+          text-decoration:none;
+          color: inherit;
+          font-weight: 500;
+          white-space:nowrap;
+          &:hover {
             border-bottom:dotted 2px @brand-primary;
           }
+        }
+        &.active a {
+          border-bottom:dotted 2px @brand-primary;
         }
       }
     }
   }
 }
+
 /* -- Footer -- */
 .footer {
   display:block;
