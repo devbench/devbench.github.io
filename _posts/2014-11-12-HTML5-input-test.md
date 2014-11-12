@@ -14,59 +14,55 @@ If you think any input types are missing or m missing some key bits on informati
 
 <form role="form">
     <div class="form-group">
-      <label for="email">Email</label>
+      <label for="email">email</label>
       <input type="email" id="email" class="form-control" placeholder="Email">
     </div>
     <div class="form-group">
-      <label for="password">Password</label>
+      <label for="password">password (not advised)</label>
       <input type="password" class="form-control" id="password" placeholder="Password">
     </div>
     <div class="form-group">
-      <label for="url">Search</label>
+      <label for="url">url</label>
       <input type="url" id="url" class="form-control" placeholder="url">
     </div>
     <div class="form-group">
-      <label for="tel">Tel</label>
+      <label for="tel">tel</label>
       <input type="tel" class="form-control" id="tel" placeholder="tel">
     </div> 
     <div class="form-group">
-      <label for="datetime">Date Time</label>
+      <label for="datetime">datetime (depreciated)</label>
       <input type="datetime" id="datetime" class="form-control" placeholder="datetime">
     </div>
     <div class="form-group">
-      <label for="date">Date</label>
+      <label for="date">date</label>
       <input type="date" class="form-control" id="date" placeholder="date">
     </div> 
     <div class="form-group">
-      <label for="month">Month</label>
+      <label for="month">month</label>
       <input type="month" id="month" class="form-control" placeholder="month">
     </div>
     <div class="form-group">
-      <label for="week">Week</label>
+      <label for="week">week</label>
       <input type="week" class="form-control" id="week" placeholder="week">
     </div> 
     <div class="form-group">
-      <label for="time">Time</label>
+      <label for="time">time</label>
       <input type="time" id="time" class="form-control" placeholder="time">
     </div>
     <div class="form-group">
-      <label for="datetime-local">Date Time - Local</label>
+      <label for="datetime-local">datetime - Local</label>
       <input type="datetime-local" class="form-control" id="datetime-local" placeholder="datetime-local">
     </div>
     <div class="form-group">
-      <label for="number">Number</label>
+      <label for="number">number</label>
       <input type="number" class="form-control" id="number" placeholder="number">
     </div>
     <div class="form-group">
-      <label for="range">Range</label>
+      <label for="range">range</label>
       <input type="range" class="form-control" id="range" placeholder="range">
     </div> 
     <div class="form-group">
-      <label for="color">Color</label>
+      <label for="color">color</label>
       <input type="color" class="form-control" id="color" placeholder="color">
-    </div>
-    <div class="form-group">
-      <label for="required">Color</label>
-      <input type="text" class="form-control" id="required" placeholder="required" required>
     </div>
   </form>
