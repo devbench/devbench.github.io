@@ -1,15 +1,17 @@
 ---
 title: HTML5 Input Test
 layout: post
-time: ~
+time: null
 author: Jodie Doubleday
 twitter: jodiedoubleday
 category: UX
-avatar: /assets/images/jodie-retina.jpg
+avatar: "/assets/images/jodie-retina.jpg"
 comments: true
+published: true
 ---
 
-A simple test for all HTML5 input types. Use this page as testing area across devices
+A simple test for all HTML5 input types. Use this page as testing area across devices.
+
 If you think any input types are missing or m missing some key bits on information, please <a href="http://twitter.com/?status=@{{ page.twitter }}" title="{{ page.author }}'s' Twitter">tweet me</a>
 
 <form role="form">
