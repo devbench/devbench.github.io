@@ -14,7 +14,8 @@ module.exports = (grunt) ->
         files: 'assets/less/**/*.less'
         tasks: ['less']
       js:
-        files: 'assets/javascripts/**/*.js'
+        files: ['assets/javascripts/vendor/**/*.js', 'assets/javascripts/lib/**/*.js']
+        tasks: ['uglify']
     exec:
       build:
         cmd: 'jekyll build'
