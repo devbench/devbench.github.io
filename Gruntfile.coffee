@@ -16,6 +16,15 @@ module.exports = (grunt) ->
       js:
         files: ['assets/javascripts/vendor/**/*.js', 'assets/javascripts/lib/**/*.js']
         tasks: ['uglify']
+    critical:
+      test:
+        options:
+          base: './'
+          css: 'assets/less/main.css'
+          width: 320
+          height: 480
+        src: '_site/index.html'
+        dest: 'assets/less/critical.css'
     exec:
       build:
         cmd: 'jekyll build'
@@ -26,6 +35,9 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-exec'
+  grunt.loadNpmTasks 'grunt-critical'
 
   grunt.registerTask 'default', ['less', 'exec:build']
   grunt.registerTask 'serve', ['exec:serve']
+
+
