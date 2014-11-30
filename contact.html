@@ -9,14 +9,11 @@ weight: 4
   <h1>Contact us <small>- Get in touch -</small></h1>
 </div>
 <div class="content">
-<!-- <form id="contactForm" action="/mail" method="get" accept-charset="utf-8">
+  <form class="contact-us" id="mailr" action="https://devbenchmailr.herokuapp.com/send" method="post" accept-charset="utf-8">
     <label>Your name</label><input name="name" type="text" required="required">
     <label>Your email address</label><input name="email" type="email" required="required">
     <label>Your message</label><textarea name="message" rows="6" required="required"></textarea>
-    <p><button id="sendMessage" type="submit"><span id="messageButtonText">Send</span></button></p>
-  </form> -->
-  <ul class="contact">
-    <li><a href="mailto:contact@devben.ch"><i class="fa fa-envelope-o"></i> <span>Facebook</span></a></li>
-    <li><a href="http://www.twitter.com/devbenchteam"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
-  </ul>
+    <input type="hidden" name="token" value="QIRcFxcU49N3sh">
+    <p><button type="submit"><i class="fa fa-paper-plane"></i><span>Send</span></button></p>
+  </form>
 </div>
