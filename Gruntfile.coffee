@@ -30,14 +30,19 @@ module.exports = (grunt) ->
         cmd: 'jekyll build'
       serve:
         cmd: 'jekyll serve --watch'
+    concurrent:
+      serve: ['watch', 'exec:serve']
+      options:
+        logConcurrentOutput: true
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-exec'
   grunt.loadNpmTasks 'grunt-critical'
+  grunt.loadNpmTasks 'grunt-concurrent'
 
   grunt.registerTask 'default', ['less', 'exec:build']
-  grunt.registerTask 'serve', ['exec:serve']
+  grunt.registerTask 'serve', ['concurrent:serve']
 
 
