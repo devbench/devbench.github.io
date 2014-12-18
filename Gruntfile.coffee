@@ -13,9 +13,13 @@ module.exports = (grunt) ->
       less:
         files: 'assets/less/**/*.less'
         tasks: ['critical', 'less']
+        options:
+          livereload: true
       js:
         files: ['assets/javascripts/vendor/**/*.js', 'assets/javascripts/lib/**/*.js']
         tasks: ['uglify']
+        options:
+          livereload: true
     critical:
       test:
         options:
@@ -37,7 +41,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-exec'
   grunt.loadNpmTasks 'grunt-critical'
 
-  grunt.registerTask 'default', ['less', 'exec:build']
-  grunt.registerTask 'serve', ['exec:serve']
+  grunt.registerTask 'default', ['less', 'uglify', 'critical', 'exec:build']
+  grunt.registerTask 'serve', ['default', 'exec:serve']
 
 
