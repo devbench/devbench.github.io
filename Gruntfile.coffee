@@ -13,6 +13,8 @@ module.exports = (grunt) ->
       less:
         files: 'assets/less/**/*.less'
         tasks: ['critical', 'less']
+        options:
+          livereload: true
       js:
         files: ['assets/javascripts/vendor/**/*.js', 'assets/javascripts/lib/**/*.js']
         tasks: ['uglify']

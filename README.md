@@ -21,4 +21,5 @@ This will run a local server for you, accessible at [localhost:4000](http://0.0.
 * run critical
 * compile less
 * uglify js
+* live reload (less & js changes)
 
