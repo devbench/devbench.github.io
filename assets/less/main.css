@@ -206,6 +206,11 @@ dl dd {
   flex: 0 1 50%;
   margin: 0;
 }
+/* -- Index -- */
+.index .content .button {
+  margin-top: 15px;
+  display: inline-block;
+}
 /* -- Team --*/
 .team {
   list-style: none;

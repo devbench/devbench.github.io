@@ -8,11 +8,6 @@
 
 $(function() {
 
-	if(window.Mailr) {
-    var myMailr = new window.Mailr({id: 'mailr'});
-    myMailr.init();
-  }
-
 	// ------------------------------
 	//	Modernizr placeholder
 	// ------------------------------

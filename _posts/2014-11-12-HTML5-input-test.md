@@ -12,7 +12,7 @@ published: true
 
 A simple test for all HTML5 input types. Use this page as testing area across devices.
 
-If you think any input types are missing or m missing some key bits on information, please <a href="http://twitter.com/?status=@{{ page.twitter }}" title="{{ page.author }}'s' Twitter">tweet me</a>
+If you think any input types are missing or I'm missing some key bits on information, please <a href="http://twitter.com/?status=@{{ page.twitter }}" title="{{ page.author }}'s' Twitter">tweet me</a>
 
 <form role="form">
     <div class="form-group">
@@ -30,7 +30,7 @@ If you think any input types are missing or m missing some key bits on informati
     <div class="form-group">
       <label for="tel">tel</label>
       <input type="tel" class="form-control" id="tel" placeholder="tel">
-    </div> 
+    </div>
     <div class="form-group">
       <label for="datetime">datetime (depreciated)</label>
       <input type="datetime" id="datetime" class="form-control" placeholder="datetime">
@@ -38,7 +38,7 @@ If you think any input types are missing or m missing some key bits on informati
     <div class="form-group">
       <label for="date">date</label>
       <input type="date" class="form-control" id="date" placeholder="date">
-    </div> 
+    </div>
     <div class="form-group">
       <label for="month">month</label>
       <input type="month" id="month" class="form-control" placeholder="month">
@@ -46,7 +46,7 @@ If you think any input types are missing or m missing some key bits on informati
     <div class="form-group">
       <label for="week">week</label>
       <input type="week" class="form-control" id="week" placeholder="week">
-    </div> 
+    </div>
     <div class="form-group">
       <label for="time">time</label>
       <input type="time" id="time" class="form-control" placeholder="time">
@@ -62,7 +62,7 @@ If you think any input types are missing or m missing some key bits on informati
     <div class="form-group">
       <label for="range">range</label>
       <input type="range" class="form-control" id="range" placeholder="range">
-    </div> 
+    </div>
     <div class="form-group">
       <label for="color">color</label>
       <input type="color" class="form-control" id="color" placeholder="color">
