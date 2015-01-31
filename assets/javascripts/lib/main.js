@@ -63,5 +63,11 @@ $(function() {
   $(".navbar-toggle").click(function(){
     $("body").toggleClass("slide");
   });
+
+  if(window.Mailr && $('#mailr').length) {
+    var myMailr = new window.Mailr({id: 'mailr'});
+    myMailr.init();
+  }
+
 });
 
