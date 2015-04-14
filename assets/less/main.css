@@ -2337,3 +2337,8 @@ a[href*="google"] i {
 .fa-meanpath:before {
   content: "\f20c";
 }
+
+/* Slack */
+.footer ul li.slack {
+  margin-top: 0.25em;
+}
