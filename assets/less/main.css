@@ -2368,3 +2368,19 @@ a[href*="google"] i {
 #inlinesvg2:hover {
   fill: #0099ff;
 }
+.icon {
+  width: 1em;
+  height: 1em;
+}
+.icon-2x {
+  width: 2em;
+  height: 2em;
+}
+.icon-3x {
+  width: 3em;
+  height: 3em;
+}
+.icon-4x {
+  width: 3em;
+  height: 3em;
+}
