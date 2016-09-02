@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, .header nav {
   border-bottom:dotted 1px @brand-primary;
   padding-bottom:2em;
   img {
-    width:100%;
+    // width:100%;
     display:block;
     &.small-img {
       min-width: 200px;
@@ -414,3 +414,36 @@ a[href*="google"] i {
 
 @import "syntax.less";
 @import "font-awesome/font-awesome.less";
+
+
+/* SVG TEST */
+.height {
+  height:100px;
+}
+.width {
+  width:100px;
+}
+.heightwidth {
+  height:200px;
+  .width;
+}
+.svgtest {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 100px;
+  background: url('/assets/images/HEHA.svg');
+  background-size: 100px 100px;
+}
+#inlinesvg {
+  fill:gold;
+}
+#inlinesvg:hover {
+  fill:#0099ff;
+}
+#inlinesvg2 {
+  fill:gold;
+}
+#inlinesvg2:hover {
+  fill:#0099ff;
+}

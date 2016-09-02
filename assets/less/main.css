@@ -154,7 +154,6 @@ h5,
   padding-bottom: 2em;
 }
 .blog-content img {
-  width: 100%;
   display: block;
 }
 .blog-content img.small-img {
@@ -407,6 +406,10 @@ a[href*="google"] i {
     box-shadow: 0 0 0 5px #4db8d6;
     opacity: 1;
   }
+}
+/* Slack */
+.footer ul li.slack {
+  margin-top: 0.25em;
 }
 .highlight {
   background: #ffffff;
@@ -2334,8 +2337,34 @@ a[href*="google"] i {
 .fa-meanpath:before {
   content: "\f20c";
 }
-
-/* Slack */
-.footer ul li.slack {
-  margin-top: 0.25em;
+/* SVG TEST */
+.height {
+  height: 100px;
+}
+.width {
+  width: 100px;
+}
+.heightwidth {
+  height: 200px;
+  width: 100px;
+}
+.svgtest {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 100px;
+  background: url('/assets/images/HEHA.svg');
+  background-size: 100px 100px;
+}
+#inlinesvg {
+  fill: gold;
+}
+#inlinesvg:hover {
+  fill: #0099ff;
+}
+#inlinesvg2 {
+  fill: gold;
+}
+#inlinesvg2:hover {
+  fill: #0099ff;
 }
